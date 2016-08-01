@@ -15,6 +15,7 @@ data("inegi_catalog")
 
 # to ilustrate the hierarchy
 ind <- inegi_catalog %>% 
+  filter(AVAILABLE == 1) %>%
   filter(ENT_CODE == "00") %>% 
   filter(LEVEL1 == "Población, Hogares y Vivienda") %>% 
   filter(LEVEL2 == "Natalidad y fecundidad") %>% 
