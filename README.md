@@ -10,7 +10,7 @@ install_github("Eflores89/inegiCatalog")
 # Usage
 ```
 library(dplyr)
-library(inegiR)
+library(inegiCatalog)
 data("inegi_catalog")
 
 # to ilustrate the hierarchy
